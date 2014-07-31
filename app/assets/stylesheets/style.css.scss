@@ -1,0 +1,293 @@
+/*----------------------------------------
+    Name:           Bucktown
+    Description:    Landing Page
+    Version:        1.0
+    Author:         theme4less.com
+----------------------------------------*/
+
+/*---------- General ----------*/
+body {
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 300;
+}
+a {
+    color: #a57c52;
+    -moz-transition: color 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+a:hover {
+    color: #3d2e1e;
+    text-decoration: none;
+}
+blockquote {
+    border-left: 5px solid #d2bea9;
+    background-color: #f6f1ed;
+}
+.navbar {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    background-color: #fff;
+}
+.navbar-brand {
+    font-weight: 700;
+}
+.navbar-brand:focus {
+    outline: 0;
+}
+.navbar-custom a {
+    color: #444;
+}
+.navbar-custom .nav li a {
+    -moz-transition: color 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    color: #999;
+    background-color: rgba(0,0,0,0);
+}
+.navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #333;
+}
+.navbar-toggle:focus,
+.navbar-toggle:active {
+    outline: 0;
+}
+.overview {
+    margin: 0;
+    padding: 0;
+}
+.overview h1 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.overview .lead {
+    color: #777;
+    font-size: 16px;
+    font-weight: 300;
+}
+.overview-separator {
+    margin: 0 auto;
+    width: 100px;
+    height: 2px;
+    border-top: 1px solid #ae8963;
+    background-color: #ae8963;
+}
+.img-center {
+    margin: 0 auto;
+}
+.spacer-15px {
+    background: none !important;
+    height: 15px;
+}
+.spacer-25px {
+    background: none !important;
+    height: 25px;
+}
+.spacer-50px {
+    background: none !important;
+    height: 25px;
+}
+.spacer-75px {
+    background: none !important;
+    height: 75px;
+}
+
+/*---------- Hero ----------*/
+#hero {
+    color: #333;
+    padding: 105px 0 50px;
+    width: 100%;
+    height: 600px;
+}
+#hero h1 {
+    font-size: 24px;
+}
+#hero .form-container {
+    background: image-url('transparent-light.png') repeat;
+    margin-top: 350px;
+    padding: 15px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+#hero .form-container form {
+    background: image-url('transparent-light.png') repeat;
+    padding: 20px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+#hero .form-container input,
+#hero .form-container textarea {
+    background: image-url('transparent-light-2.png') repeat;
+    border-color: #999;
+}
+
+/*---------- About ----------*/
+#about {
+    padding: 50px 0 65px;
+}
+#about .images {
+    margin-bottom: 50px;
+}
+#about .item {
+    padding: 10px 0;
+}
+.item .icon {
+    float: left;
+    padding-top: 5px;
+}
+.item .text {
+    margin-left: 50px;
+}
+/*---------- Features ----------*/
+#features {
+    background-color: #a57c52;
+    color: #fff;
+    padding: 50px 0;
+}
+#features h1,
+#features .lead {
+    color: #fff;
+}
+#features .item {
+    padding: 15px 0;
+}
+
+/*---------- FAQ ----------*/
+#faq {
+    padding: 50px 0 65px;
+}
+
+/*---------- Clients ----------*/
+#clients {
+    background-color: #f6f1ed;
+    color: #444;
+    padding: 50px 0;
+}
+
+/*---------- Call to action ----------*/
+#cta {
+    background: image-url('bg-cta.jpg') center center no-repeat;
+    margin: -8px 0;
+    padding: 0;
+    width: 100%;
+}
+#cta .inner{
+    padding: 50px 0;
+}
+#cta .form-container {
+    background: image-url('transparent-light.png') repeat;
+    padding: 15px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+#cta .form-container form {
+    background: image-url('transparent-light.png') repeat;
+    padding: 20px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+#cta .form-container input,
+#cta .form-container textarea {
+    background: image-url('transparent-light-2.png') repeat;
+    border-color: #999;
+}
+
+/*---------- Footer ----------*/
+#footer {
+    background-color: #a57c52;
+    color: #fff;
+    padding: 50px 0;
+}
+.social {
+    margin-top: 25px;
+}
+.social li > a,
+.social img {
+    margin: 0;
+    padding: 0;
+}
+.social-icon {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #fff;
+    color: #a57c52;
+    font-size: 20px;
+    height: 40px;
+    width: 41px;
+    padding: 5px;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.social-icon:hover,
+.social-icon:focus {
+    color: #7b5d3d;
+}
+
+/*---------- Media queries ----------*/
+@media (min-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #fff;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid #ddd;
+    }
+}
+@media (min-width: 480px) and (max-width: 640px) {
+    #hero .form-container {
+        margin-top: 25px;
+    }
+    #about img {
+        padding: 10px 0;
+    }
+    #cta {
+        margin: -40px 0;
+    }
+}
+@media (min-width: 320px) and (max-width: 360px) {
+    #hero .form-container {
+        margin-top: 50px;
+    }
+    #about img {
+        padding: 10px 0;
+    }
+    #cta {
+        margin: -40px 0;
+    }
+}
