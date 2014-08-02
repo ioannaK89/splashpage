@@ -631,9 +631,9 @@ $(function() {
 
     /*---------- Background slideshow ----------*/
     $('#hero').backstretch([
-        "<%= asset_path('bg-1.jpg')%>",
-        "<%= asset_path('bg-2.jpg')%>",
-        "<%= asset_path('bg-3.jpg')%>"
+        "#{ asset_path('bg-1.jpg') }",
+        "#{ asset_path('bg-2.jpg') }",
+        "#{ asset_path('bg-3.jpg') }"
     ], {fade: 750, duration: 8000});
     /*----------*/
 
