@@ -8547,7 +8547,7 @@ blockquote {
 
 /* line 201, /Users/joanna/Desktop/projects/splashpage/app/assets/stylesheets/style.css.scss */
 #cta .form-container form {
-  background: url(/assets/transparent-light.png) repeat;
+  background: image-url('transparent-light.png') repeat;
   padding: 20px;
   -moz-border-radius: 4px;
   -o-border-radius: 4px;
@@ -8557,7 +8557,7 @@ blockquote {
 /* line 209, /Users/joanna/Desktop/projects/splashpage/app/assets/stylesheets/style.css.scss */
 #cta .form-container input,
 #cta .form-container textarea {
-  background: url(/assets/transparent-light-2.png) repeat;
+  background: image-url('transparent-light-2.png') repeat;
   border-color: #999;
 }
 
