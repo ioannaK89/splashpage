@@ -8448,7 +8448,7 @@ blockquote {
 
 /* line 128, /Users/joanna/Desktop/projects/splashpage/app/assets/stylesheets/style.css.scss */
 #hero .form-container form {
-  background: url(/assets/transparent-light.png) repeat;
+  background: image-url('transparent-light.png') repeat;
   padding: 20px;
   -moz-border-radius: 4px;
   -o-border-radius: 4px;
@@ -8458,7 +8458,7 @@ blockquote {
 /* line 136, /Users/joanna/Desktop/projects/splashpage/app/assets/stylesheets/style.css.scss */
 #hero .form-container input,
 #hero .form-container textarea {
-  background: url(/assets/transparent-light-2.png) repeat;
+  background: image-url('transparent-light-2.png') repeat;
   border-color: #999;
 }
 
